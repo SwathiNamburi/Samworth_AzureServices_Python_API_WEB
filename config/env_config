@@ -1,1 +1,40 @@
 
+[API]
+CLIENT_ID = 81f0f4ca-c697-48c5-8238-dede7eb15c25
+#CLIENT_SECRET = 
+BASE_URL = https://dev-x-sb-recipeprofessor-api-1dfxo1.tvhgc4.gbr-e1.cloudhub.io
+
+# Connection String for Azure Service Bus
+ASB_CONNECTION_STRING = Endpoint=sb://sb-integrations-dev-servicebus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=23gK8uqgiw/PJHu2aj95dPCv+nnL7W9Ck8/Xikjxn5E=
+
+ANYPOINT_HOST = https://anypoint.mulesoft.com
+#BEARER_TOKEN = d11d09e7-c8dc-4892-bec2-1cf6d35e26f1
+ENV_NAME = Develop
+# e.g., 'Sandbox', 'Production'
+TARGET_APP_NAME = dev-x-sb-recipeprofessor-api
+# The exactly matching name of your app in Runtime Manager
+
+# COSMO DB connection details
+COSMOS_ACCOUNT_URL=https://sb-integrations-dev-cosmos.documents.azure.com:443/
+#COSMOS_ACCOUNT_KEY=
+COSMOS_DATABASE_ID=mulesoftdb
+COSMOS_DATABASE_ID_WRONG=mulesft
+COSMOS_COLLECTION_ID=recipeprofessor-events-collection
+
+
+
+[UI]
+BROWSER = chrome
+TENANT = samworthbrothers
+USERNAME = SwathiKalidindi
+PASSWORD = SkAutomation@123
+
+Fresh_Service_Username = saisruthi.molugu@prolifics.com
+Fresh_Service_Password =  Mnbvc@123
+
+Anypoint_Platform_URL = https://anypoint.mulesoft.com/home/organizations/a41a9956-f3d0-45a8-8163-35437cffc4d9/
+ASB_Portal_Topic_URL = https://portal.azure.com/#@samworthbrothers.onmicrosoft.com/resource/subscriptions/cea07d97-2b51-47db-b8cc-b3806785d213/resourceGroups/SB-Integrations-Dev-Infrastructure/providers/Microsoft.ServiceBus/namespaces/SB-Integrations-Dev-ServiceBus/topics
+Fresh_Service_URL = https://samworthbrothershelpdesk-major-incident-managemen.freshservice.com/a/alerts/view/all_alerts
+
+Runtime_Manager_App = dev-x-sb-recipeprofessor-api
+
