@@ -1,0 +1,30 @@
+{
+    "specversion": "1.0",
+    "id": "evt-ing-20260226-002",
+    "source": "urn:sb",
+    "type": "com.recipeprofessor.ingredient.created.v1",
+    "tenantid": "savourypastry",
+    "time": "2026-02-26T11:00:00Z",
+    "datacontenttype": "application/json",
+    "dataschema" : "/schemas/recipeprofessor/ingredient/ingredient_inbound_v1.json",
+    "subject": "ingredient/14562",
+    "data": {
+        "ingredientId": 14562,
+        "ingredientCode": "ING-001245",
+        "created": "2026-03-10T08:15:00Z",
+        "lastModified": "2026-03-16T09:42:15Z",
+        "supplierCode": "SUP-44581",
+        "description": "Premium unsalted butter",
+        "supplyUnit": "kilograms",
+        "uomCost": 1.23456,
+        "minimumOrderQuantity": 12.5,
+        "ingredientFormat": "Fresh/Frozen",
+        "leadTimeDays": 7,
+        "shelfLifeOnceOpened": 3.5,
+        "shelfLifeOnDelivery": 120,
+        "totalShelfLife": 180,
+        "suitableForFreezing": 1,
+        "business": "Walker and Son"
+      }
+
+  }

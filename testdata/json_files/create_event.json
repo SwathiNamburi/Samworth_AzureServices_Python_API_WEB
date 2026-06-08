@@ -1,0 +1,19 @@
+{
+  "specversion": "1.0",
+  "id": "evt-ing-20260226-1212",
+  "source": "urn:point74:rp",
+  "type": "com.recipeprofessor.ingredient.created.v1",
+  "tenantid": "savourypastry",
+  "time": "2026-02-26T10:30:00Z",
+  "datacontenttype": "application/json",
+  "dataschema": "/schemas/recipeprofessor/ingredient/ingredient_outbound_v1.json",
+  "subject": "ingredient/14562",
+  "data": {
+    "ingredientId": 14562,
+    "ingredientCode": "ING-001245",
+    "description": "Premium unsalted butter",
+    "business": "Walker and Son",
+    "created": "2026-03-10T08:15:00Z",
+    "lastModified": "2026-03-16T09:42:15Z"
+  }
+}
